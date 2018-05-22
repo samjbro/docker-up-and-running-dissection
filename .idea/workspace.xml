@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75df2672-69ba-48aa-a801-6b7cfa779d4f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/samb.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3 - Installing Docker/3.appendix1.Dockerfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3 - Installing Docker/3.observations.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3 - Installing Docker/3.writeup.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4 - Working with Docker Images/4.writeup.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/0.1 - Foreword/Foreword.md" afterPath="$PROJECT_DIR$/0.1 - Foreword/0.1.writeup.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1 - Introduction/1.Introduction.md" afterPath="$PROJECT_DIR$/1 - Introduction/1.writeup.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/2 - Docker at a Glance/2.DockerAtAGlance.md" afterPath="$PROJECT_DIR$/2 - Docker at a Glance/2.writeup.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2 - Docker at a Glance/2.DockerAtAGlance.md" afterPath="$PROJECT_DIR$/2 - Docker at a Glance/2.DockerAtAGlance.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2 - Docker at a Glance/2.StrayObservations.md" afterPath="$PROJECT_DIR$/2 - Docker at a Glance/2.StrayObservations.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,12 +23,12 @@
     <splitter split-orientation="horizontal" split-proportion="0.5005701">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="1.Introduction.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/1 - Introduction/1.Introduction.md">
+          <file leaf-file-name="3.writeup.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/3 - Installing Docker/3.writeup.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SECOND">
-                  <first_editor relative-caret-position="495">
-                    <caret line="33" column="67" lean-forward="false" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+                  <first_editor relative-caret-position="450">
+                    <caret line="30" column="4" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="17" />
                     <folding />
                   </first_editor>
                   <second_editor />
@@ -32,12 +36,12 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="2.DockerAtAGlance.md" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/2 - Docker at a Glance/2.DockerAtAGlance.md">
+          <file leaf-file-name="4.writeup.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/4 - Working with Docker Images/4.writeup.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="997">
-                    <caret line="417" column="44" lean-forward="true" selection-start-line="417" selection-start-column="44" selection-end-line="417" selection-end-column="44" />
+                  <first_editor relative-caret-position="450">
+                    <caret line="30" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
                     <folding />
                   </first_editor>
                   <second_editor />
@@ -49,12 +53,12 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="2.StrayObservations.md" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/2 - Docker at a Glance/2.StrayObservations.md">
+          <file leaf-file-name="3.observations.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/3 - Installing Docker/3.observations.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="345">
-                    <caret line="23" column="97" lean-forward="false" selection-start-line="23" selection-start-column="97" selection-end-line="23" selection-end-column="97" />
+                  <first_editor relative-caret-position="0">
+                    <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                     <folding />
                   </first_editor>
                   <second_editor />
@@ -62,15 +66,12 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="1.StrayObservations.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/1 - Introduction/1.StrayObservations.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="150">
-                    <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-                    <folding />
-                  </first_editor>
-                  <second_editor />
+          <file leaf-file-name="3.appendix1.Dockerfile" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/3 - Installing Docker/3.appendix1.Dockerfile">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -93,6 +94,9 @@
         <option value="$PROJECT_DIR$/1 - Introduction/1.StrayObservations.md" />
         <option value="$PROJECT_DIR$/2 - Docker at a Glance/2.StrayObservations.md" />
         <option value="$PROJECT_DIR$/2 - Docker at a Glance/2.DockerAtAGlance.md" />
+        <option value="$PROJECT_DIR$/3 - Installing Docker/3.writeup.md" />
+        <option value="$PROJECT_DIR$/3 - Installing Docker/3.appendix1.Dockerfile" />
+        <option value="$PROJECT_DIR$/4 - Working with Docker Images/4.writeup.md" />
       </list>
     </option>
   </component>
@@ -127,6 +131,30 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dissection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dissection" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dissection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dissection" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3 - Installing Docker" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="dissection" />
@@ -279,16 +307,15 @@
       <option name="presentableId" value="Default" />
       <updated>1526636097663</updated>
       <workItem from="1526636100551" duration="6600000" />
-      <workItem from="1526891248707" duration="31831000" />
+      <workItem from="1526891248707" duration="36305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38431000" />
+    <option name="totallyTimeSpent" value="42905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2048" height="1152" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12512463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -324,7 +351,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0.1 - Foreword/Foreword.md">
+    <entry file="file://$PROJECT_DIR$/0.1 - Foreword/0.1.writeup.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -335,7 +362,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0.1 - Foreword/Foreword.md">
+    <entry file="file://$PROJECT_DIR$/0.1 - Foreword/0.1.writeup.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="390">
@@ -368,7 +395,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1 - Introduction/1.Introduction.md">
+    <entry file="file://$PROJECT_DIR$/1 - Introduction/1.writeup.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor relative-caret-position="495">
@@ -393,19 +420,19 @@
     <entry file="file://$PROJECT_DIR$/2 - Docker at a Glance/2.StrayObservations.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="345">
-            <caret line="23" column="97" lean-forward="false" selection-start-line="23" selection-start-column="97" selection-end-line="23" selection-end-column="97" />
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2 - Docker at a Glance/2.DockerAtAGlance.md">
+    <entry file="file://$PROJECT_DIR$/2 - Docker at a Glance/2.writeup.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="997">
-            <caret line="417" column="44" lean-forward="true" selection-start-line="417" selection-start-column="44" selection-end-line="417" selection-end-column="44" />
+          <first_editor relative-caret-position="5640">
+            <caret line="376" column="57" lean-forward="false" selection-start-line="376" selection-start-column="57" selection-end-line="376" selection-end-column="57" />
             <folding />
           </first_editor>
           <second_editor />
@@ -415,6 +442,47 @@
         <state relative-caret-position="0">
           <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3 - Installing Docker/3.observations.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3 - Installing Docker/3.appendix1.Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4 - Working with Docker Images/4.writeup.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="450">
+            <caret line="30" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3 - Installing Docker/3.writeup.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="450">
+            <caret line="30" column="4" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
