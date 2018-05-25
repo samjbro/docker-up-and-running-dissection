@@ -231,3 +231,26 @@ While these tools are undoubtedly useful when monitoring live containers, it wou
 representation of our container activity; there are many commercial and open source tools that aim to provide this
 functionality.
 
+Google has released its own proprietary container adviser tool, __cAdvisor__ as open-source. The simplest way to try
+cAdvisor out is by running it as a Docker container like so:
+```
+docker run \
+--volume=/:/rootfs:ro \
+--volume=/var/run:/var/run:rw \
+--volume=/sys:/sys:ro \
+--volume=/var/lib/docker/:/var/lib/docker:ro \
+--publish=8080:8080
+--detach=true \
+--name=cadvisor \
+google/cadvisor:latest
+```
+Once the container has launched you can see the cAdvisor interface by visiting the Docker host's port 8080 in your
+browser. cAdvisor also provides an API endpoint at `http://<hostname>:<port>/api/v1.3/containers/`. The information
+output of cAdvisor is very broad, and should be adequate for any of your monitoring needs.
+
+## Exploration
+
+These are the basic operations you can perform with containers; there are are few more useful commands though, such
+as `docker cp`, which lets you copy files in and out of a container, `docker export` for saving a container's 
+filesystem to a __tarball,__ `docker save` for saving an image to a tarball, and `docker import` for loading an 
+image from a tarball. Keep an eye out for new features with each Docker release!
